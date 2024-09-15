@@ -1,2 +1,0 @@
-# newportfolio
-Updated portfolio.
