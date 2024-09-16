@@ -1,0 +1,12 @@
+.Navholder{
+    background-color: aqua;
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.LinkElement{
+    margin: auto;
+}
