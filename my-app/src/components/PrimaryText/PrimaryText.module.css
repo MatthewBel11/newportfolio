@@ -1,0 +1,18 @@
+.TextHolder{
+    width:78%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.TextTitle{
+    font-weight: bold;
+    padding: none;
+    margin: 0;
+}
+
+.TextBlock{
+    color: rgb(102 102 102);
+}
