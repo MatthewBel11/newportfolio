@@ -6,10 +6,9 @@ function Navbar(){
 
     return(
         <div className={styles.Navholder}>
-            <a href='' className={styles.LinkElement}> About </a>
-            <a href='' className={styles.LinkElement}> Projects </a>
-            <a href='' className={styles.LinkElement}>  </a>
-            <a href='' className={styles.LinkElement}> XYZ </a>
+            <a href='/About' className={styles.LinkElement}> About </a>
+            <a href='/Projects' className={styles.LinkElement}> Projects </a>
+            <a href='/Contact' className={styles.LinkElement}> Contact </a>
         </div>
     )
 }
