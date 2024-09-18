@@ -1,0 +1,18 @@
+.MainHolder{
+    width: 78%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+
+.Title{
+    color: #333333;
+    margin-top: 40px;
+}
+
+.WorkTitle{
+    margin-top: 40px;
+}

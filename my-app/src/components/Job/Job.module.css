@@ -1,0 +1,29 @@
+.JobLocation{
+    margin-top: 0.5%;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(102 102 102);
+}
+
+.CompanyTitle, .JobTitle{
+    padding: 0;
+    margin: 0;
+    color: #333333;
+}
+
+.CompanyTitle{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.JobTitle{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.JobText{
+    color: rgb(102 102 102);
+}
+
+
