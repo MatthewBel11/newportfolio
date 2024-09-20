@@ -12,7 +12,6 @@
 }
 
 .CompanyTitle{
-    margin-top: 30px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -26,4 +25,26 @@
     color: rgb(102 102 102);
 }
 
+.Container{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
 
+.JobInfo{
+    height: 72px;
+}
+
+.ImageContainer{
+    width: auto;
+    height: auto;
+}
+
+.Image{
+    width: 71.2px;
+    height: 71.2px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
