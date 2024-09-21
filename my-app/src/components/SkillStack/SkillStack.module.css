@@ -1,0 +1,18 @@
+.Container{
+    margin: auto;
+    width: 78%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.TitleContainer{
+    width: 78%;
+    margin: auto;
+}
+
+.Title{
+    color: #333333;
+    margin-top: 40px;
+}
