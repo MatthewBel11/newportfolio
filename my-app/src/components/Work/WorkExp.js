@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './WorkExp.module.css'
 import Job from '../Job/Job.js'
 
+import ImageAtom from './ATOMBANK.png'
+import ImageZebra from './zebra.png'
+import ImageNU from './NU.png'
 
 function Work(props){
 
@@ -11,6 +14,7 @@ function Work(props){
         JobLocation : 'United Kingdom, Durham, Aykley Woods | June 2024 - Sept 2024',
         JobText : "At a Fintech based in the Northeast, I gained experience applying enterprise architecture frameworks like TOGAF and CSVLOD in a fast-paced startup environment. I contributed to the development of a prototype AI Companion project using front-end technologies such as React, JavaScript, and Python, and integrated Google Cloud Run and BigQuery to enable data-driven solutions. Additionally, I collaborated with interns to present a data-driven improvement proposal to Atom Bank's Executive Committee and CEO, enhancing my problem-solving and presentation skills."
     }
+
 
     var JobTwo = {
         CompanyTitle : 'Zebra Technologies',
@@ -37,11 +41,11 @@ function Work(props){
     return(
         <div className={styles.MainHolder}>
             <h2 className={styles.Title}> Internship Experience </h2>
-            <Job CompanyTitle={JobOne.CompanyTitle} JobTitle={JobOne.JobTitle} JobLocation={JobOne.JobLocation} JobText={JobOne.JobText}/>
-            <Job CompanyTitle={JobTwo.CompanyTitle} JobTitle={JobTwo.JobTitle} JobLocation={JobTwo.JobLocation} JobText={JobTwo.JobText}/>
+            <Job Image = {ImageAtom} CompanyTitle={JobOne.CompanyTitle} JobTitle={JobOne.JobTitle} JobLocation={JobOne.JobLocation} JobText={JobOne.JobText}/>
+            <Job Image = {ImageZebra} CompanyTitle={JobTwo.CompanyTitle} JobTitle={JobTwo.JobTitle} JobLocation={JobTwo.JobLocation} JobText={JobTwo.JobText}/>
 
             <h2 className={styles.WorkTitle}> Education </h2>
-            <Job CompanyTitle={JobFour.CompanyTitle} JobTitle={JobFour.JobTitle} JobLocation={JobFour.JobLocation} JobText={JobFour.JobText}/>
+            <Job Image = {ImageNU} CompanyTitle={JobFour.CompanyTitle} JobTitle={JobFour.JobTitle} JobLocation={JobFour.JobLocation} JobText={JobFour.JobText}/>
         </div>
     )
 }
