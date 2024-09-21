@@ -1,12 +1,21 @@
 .Background{
-  width: 98vw;
+  flex-grow: 1;
   height: 175vh;
   display: flex;
+  flex-direction: row;
 }
 
 .ContentColumn{
-  background-color: rgb(255, 255, 255);
   width: 55vw;
   height: 175vh;
-  margin: auto;
+}
+
+.LeftColumn, .RightColumn{
+  height: auto;
+  width:22.5vw;
+}
+
+.image{
+  width: 22.5vw;
+  height: 175vh;
 }

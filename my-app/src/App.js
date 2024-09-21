@@ -1,18 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import TitleCard from './components/Titlecard/Titlecard.js'
-import Navbar from './components/Navbar/Navbar.js'
-
+import TitleCard from './components/Titlecard/Titlecard.js';
+import Navbar from './components/Navbar/Navbar.js';
 import AboutPage from './Pages/AboutPage/AboutPage.js';
+import ProjectsPage from './Pages/ProjectsPage/ProjectsPage.js'
+
 
 function App() {
   return (
-      <div className = 'ContentColumn'>
-        <TitleCard/>
-        <Navbar/>
-        {/* Main page logic based on url */}
-        <AboutPage/>
+    <Router>
+      <div className='Background'>
+        <div className='LeftColumn'>
+          {/* You can add any content for the left column */}
+        </div>
+        
+        <div className='ContentColumn'>
+          <TitleCard />
+          <Navbar />
+          
+          {/* Define Routes for each page */}
+          <Routes>
+            <Route path="/" element={<AboutPage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/contact" element={''} />
+          </Routes>
+        </div>
+
+        <div className='RightColumn'>
+          {/* You can add any content for the right column */}
+        </div>
       </div>
+    </Router>
   );
 }
 
