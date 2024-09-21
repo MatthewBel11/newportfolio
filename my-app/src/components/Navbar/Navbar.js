@@ -1,17 +1,15 @@
-import React from 'react'
-import styles from './Navbar.module.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Navbar.module.css';
 
-
-function Navbar(){
-
-    return(
-        <div className={styles.Navholder}>
-            <a href='/' className={styles.LinkElement}> Home </a>
-            <a href='/About' className={styles.LinkElement}> About </a>
-            <a href='/Projects' className={styles.LinkElement}> Projects </a>
-            <a href='/Contact' className={styles.LinkElement}> Contact </a>
-        </div>
-    )
+function Navbar() {
+  return (
+    <div className={styles.Navholder}>
+      <Link to="/" className={styles.LinkElement}> Home </Link>
+      <Link to="/projects" className={styles.LinkElement}> Projects </Link>
+      <Link to="/contact" className={styles.LinkElement}> Contact </Link>
+    </div>
+  );
 }
 
 export default Navbar;
