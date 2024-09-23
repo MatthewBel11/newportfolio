@@ -11,6 +11,12 @@
     font-weight: 400;
     font-size: 20px;
     margin-right: 15px;
+    text-decoration: none;
+}
+
+.LinkElement:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .LinkElement:focus{
