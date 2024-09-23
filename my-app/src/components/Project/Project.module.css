@@ -49,8 +49,5 @@
 }
 
 .SkillHold{
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    flex-wrap: wrap;
+    
 }

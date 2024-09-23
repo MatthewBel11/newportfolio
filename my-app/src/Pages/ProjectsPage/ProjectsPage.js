@@ -26,7 +26,7 @@ const ProjectWebsite = {
         { icon: Html, name: 'HTML' },
         { icon: css, name: 'CSS' },
         { icon: ReactImg, name: 'React' },
-        { icon: cog, name: 'Under Development' },
+        { icon: cog, name: 'Under Development ' },
     ],
 };
 
@@ -43,7 +43,7 @@ const ProjectHealth = {
 };
 
 const ProjectChatom = {
-    ProjectTitle: 'Chatom GPT',
+    ProjectTitle: 'ChAtom GPT',
     ProjectText: "I developed a company prototype AI Companion project using React, JavaScript, Python, and Astro, applying atomic design principles for a scalable front-end architecture. I designed the website and basic architecture in LucidChart and created a custom Python API hosted on Google Cloud Run, utilizing BigQuery to store and retrieve user chat histories. The project integrated Google's Gemini AI model for intelligent responses, with REST API calls to the Python backend. In collaboration with one other team member, we used HTML, CSS, and JavaScript to deliver a data-driven, cloud-based solution.",
     skills: [
         { icon: Python, name: 'Python' },
