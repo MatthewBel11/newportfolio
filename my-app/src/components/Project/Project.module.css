@@ -1,7 +1,8 @@
 .Project{
     width: 85%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);

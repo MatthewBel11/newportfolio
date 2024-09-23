@@ -15,14 +15,13 @@ function Project(props){
                 <p className={styles.ProjectText}>{props.ProjectText}</p>
 
                 <div className={styles.SkillHold}>
-                    <Skills Icon={Python} SkillName='Python'/>
-                    <Skills Icon={Python} SkillName='Html'/>
-                    <Skills Icon={Python} SkillName='CSS'/>
-                    <Skills Icon={Python} SkillName='Firebase'/>
+                    {props.skills.map((skill, index) => (
+                        <Skills key={index} Icon={skill.icon} SkillName={skill.name} />
+                    ))}
                 </div>
 
                 <div className = {styles.ViewContainer}>
-                    <p className={styles.ProjectView}>View On Github</p>
+                    <p className={styles.ProjectView}>{props.view}</p>
                     <p className={styles.ProjectView}>{props.demo}</p>
                 </div>
             </div>
