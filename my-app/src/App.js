@@ -11,9 +11,7 @@ function App() {
   return (
     <Router>
       <div className='Background'>
-        <div className='LeftColumn'>
-          {/* You can add any content for the left column */}
-        </div>
+
         
         <div className='ContentColumn'>
           <TitleCard />
@@ -27,9 +25,7 @@ function App() {
           </Routes>
         </div>
 
-        <div className='RightColumn'>
-          {/* You can add any content for the right column */}
-        </div>
+
       </div>
     </Router>
   );

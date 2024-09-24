@@ -6,16 +6,8 @@
 }
 
 .ContentColumn{
+  margin: auto;
   width: 55vw;
   height: 175vh;
 }
 
-.LeftColumn, .RightColumn{
-  height: auto;
-  width:22.5vw;
-}
-
-.image{
-  width: 22.5vw;
-  height: 175vh;
-}
