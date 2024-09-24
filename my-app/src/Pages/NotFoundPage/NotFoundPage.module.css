@@ -1,0 +1,19 @@
+/* Pages/NotFoundPage/NotFoundPage.module.css */
+.NotFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .NotFoundContainer h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .NotFoundContainer p {
+    font-size: 1.2rem;
+    color: #666;
+  }
