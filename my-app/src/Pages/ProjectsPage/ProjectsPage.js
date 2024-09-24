@@ -20,7 +20,7 @@ import checked from '../../components/SkillStack/checked.png';
 
 const ProjectWebsite = {
     ProjectTitle: 'This Website',
-    ProjectText: 'Developed a full-stack web application using Python, Flask, HTML, and CSS...',
+    ProjectText: 'I built a personal portfolio website using React, JavaScript, HTML, and CSS to showcase my work and skills. The current setup efficiently handles interactivity and styling but I plan to enhance it further by implementing Astro to improve loading speed and boost SEO performance. In addition, I will transition from traditional CSS to Tailwind CSS to streamline styling, making the website more responsive and maintainable.',
     skills: [
         { icon: Javascript, name: 'JavaScript' },
         { icon: Html, name: 'HTML' },
@@ -28,8 +28,8 @@ const ProjectWebsite = {
         { icon: ReactImg, name: 'React' },
         { icon: cog, name: 'Under Development ' },
     ],
-    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
-    ProjectDemoLink: 'swe-matthew.com',
+    ProjectViewLink: 'https://github.com/MatthewBel11/newportfolio',
+    ProjectDemoLink: 'https://swe-matthew.com',
 };
 
 const ProjectHealth = {
@@ -42,8 +42,8 @@ const ProjectHealth = {
         { icon: Firebase, name: 'Firebase' },
         { icon: checked, name: 'Completed' },
     ],
-    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
-    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectViewLink: 'https://github.com/MatthewBel11/HealthTrack',
+    ProjectDemoLink: '',
 };
 
 const ProjectChatom = {
@@ -86,7 +86,7 @@ const ProjectOldWebsite = {
         { icon: checked, name: 'Completed' },
     ],
     ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
-    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'https://swe-matthew.com/',
 };
 
 function AboutPage() {
@@ -105,7 +105,7 @@ function AboutPage() {
                 ProjectText={ProjectHealth.ProjectText} 
                 skills={ProjectHealth.skills}  
                 view='View on GitHub' demo='Demo N/A'
-                demoLink={ProjectHealth.ProjectDemoLink} viewLink={ProjectHealth.ProjectViewLink}
+                viewLink={ProjectHealth.ProjectViewLink}
             />
 
             <Project 
@@ -113,7 +113,7 @@ function AboutPage() {
                 ProjectText={ProjectChatom.ProjectText} 
                 skills={ProjectChatom.skills} 
                 view='Code N/A due to being a Internship project' 
-                {/* demoLink={ProjectChatom.ProjectDemoLink} viewLink={ProjectChatom.ProjectViewLink} */}
+                
             />
 
             <Project 
@@ -128,7 +128,7 @@ function AboutPage() {
                 ProjectTitle={ProjectIkea.ProjectTitle} 
                 ProjectText={ProjectIkea.ProjectText} 
                 skills={ProjectIkea.skills} view='Code N/A' 
-                {/* demoLink={ProjectIkea.ProjectDemoLink} viewLink={ProjectIkea.ProjectViewLink} */}
+                
             />
 
         </>

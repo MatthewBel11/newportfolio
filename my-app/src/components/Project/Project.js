@@ -21,8 +21,8 @@ function Project(props){
                 </div>
 
                 <div className = {styles.ViewContainer}>
-                    <a href={props.viewLink}className={styles.ProjectView}>{props.view}</a>
-                    <a href={props.demoLink}className={styles.ProjectView}>{props.demo}</a>
+                    <a href={props.viewLink}className={styles.ProjectView} target="_blank" rel="noopener noreferrer">{props.view}</a>
+                    <a href={props.demoLink}className={styles.ProjectView} target="_blank" rel="noopener noreferrer">{props.demo}</a>
                 </div>
             </div>
         </div>
