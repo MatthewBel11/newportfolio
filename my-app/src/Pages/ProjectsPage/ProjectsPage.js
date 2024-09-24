@@ -28,6 +28,8 @@ const ProjectWebsite = {
         { icon: ReactImg, name: 'React' },
         { icon: cog, name: 'Under Development ' },
     ],
+    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'swe-matthew.com',
 };
 
 const ProjectHealth = {
@@ -40,6 +42,8 @@ const ProjectHealth = {
         { icon: Firebase, name: 'Firebase' },
         { icon: checked, name: 'Completed' },
     ],
+    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio',
 };
 
 const ProjectChatom = {
@@ -53,8 +57,9 @@ const ProjectChatom = {
         { icon: astro, name: 'Astro' },
         { icon: db, name: 'BigQuery' },
         { icon: checked, name: 'Completed' },
-
     ],
+    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio'
 };
 
 const ProjectIkea = {
@@ -66,6 +71,8 @@ const ProjectIkea = {
         { icon: sqlite, name: 'SQLite' },
         { icon: checked, name: 'Completed' },
     ],
+    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio',
 };
 
 const ProjectOldWebsite = {
@@ -78,16 +85,51 @@ const ProjectOldWebsite = {
         { icon: css, name: 'CSS' },
         { icon: checked, name: 'Completed' },
     ],
+    ProjectViewLink: 'https://github.com/MatthewBel11/portfolio',
+    ProjectDemoLink: 'https://github.com/MatthewBel11/portfolio',
 };
 
 function AboutPage() {
     return (
         <>
-            <Project ProjectTitle={ProjectWebsite.ProjectTitle} ProjectText={ProjectWebsite.ProjectText} skills={ProjectWebsite.skills} demo='Demo' view='View on GitHub' />
-            <Project ProjectTitle={ProjectHealth.ProjectTitle} ProjectText={ProjectHealth.ProjectText} skills={ProjectHealth.skills}  view='View on GitHub' demo='Demo N/A'/>
-            <Project ProjectTitle={ProjectChatom.ProjectTitle} ProjectText={ProjectChatom.ProjectText} skills={ProjectChatom.skills} view='Code N/A due to being a Internship project' />
-            <Project ProjectTitle={ProjectOldWebsite.ProjectTitle} ProjectText={ProjectOldWebsite.ProjectText} skills={ProjectOldWebsite.skills} demo='Demo' view='View on GitHub' />
-            <Project ProjectTitle={ProjectIkea.ProjectTitle} ProjectText={ProjectIkea.ProjectText} skills={ProjectIkea.skills} view='Code N/A' />
+            <Project 
+                ProjectTitle={ProjectWebsite.ProjectTitle} 
+                ProjectText={ProjectWebsite.ProjectText} 
+                skills={ProjectWebsite.skills} 
+                demo='Demo' view='View on GitHub' 
+                demoLink={ProjectWebsite.ProjectDemoLink} viewLink={ProjectWebsite.ProjectViewLink}
+            />
+
+            <Project 
+                ProjectTitle={ProjectHealth.ProjectTitle} 
+                ProjectText={ProjectHealth.ProjectText} 
+                skills={ProjectHealth.skills}  
+                view='View on GitHub' demo='Demo N/A'
+                demoLink={ProjectHealth.ProjectDemoLink} viewLink={ProjectHealth.ProjectViewLink}
+            />
+
+            <Project 
+                ProjectTitle={ProjectChatom.ProjectTitle} 
+                ProjectText={ProjectChatom.ProjectText} 
+                skills={ProjectChatom.skills} 
+                view='Code N/A due to being a Internship project' 
+                {/* demoLink={ProjectChatom.ProjectDemoLink} viewLink={ProjectChatom.ProjectViewLink} */}
+            />
+
+            <Project 
+                ProjectTitle={ProjectOldWebsite.ProjectTitle} 
+                ProjectText={ProjectOldWebsite.ProjectText} 
+                skills={ProjectOldWebsite.skills} 
+                demo='Demo' view='View on GitHub' 
+                demoLink={ProjectOldWebsite.ProjectDemoLink} viewLink={ProjectOldWebsite.ProjectViewLink}
+            />
+
+            <Project 
+                ProjectTitle={ProjectIkea.ProjectTitle} 
+                ProjectText={ProjectIkea.ProjectText} 
+                skills={ProjectIkea.skills} view='Code N/A' 
+                {/* demoLink={ProjectIkea.ProjectDemoLink} viewLink={ProjectIkea.ProjectViewLink} */}
+            />
 
         </>
     );
