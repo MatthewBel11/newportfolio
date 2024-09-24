@@ -1,4 +1,4 @@
-.Navholder{
+.Navholder {
     width: 78%;
     height: 5vh;
     display: flex;
@@ -7,22 +7,25 @@
     margin-top: 20px;
 }
 
-.LinkElement{
+.LinkElement {
     font-weight: 400;
     font-size: 20px;
     margin-right: 15px;
     text-decoration: none;
+    color: black;
 }
 
-.LinkElement:hover{
+.LinkElement:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.LinkElement:focus{
-    font-weight: 400;
-    font-size: 20px;
+.LinkElement:focus {
     text-decoration: underline;
     font-weight: bold;
 }
 
+.Active {
+    font-weight: bold;
+    text-decoration: underline;
+}
