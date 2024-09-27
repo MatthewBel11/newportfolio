@@ -28,7 +28,6 @@ function Skills(props){
             <Skill Icon={CSharp} SkillName='C#'/>
             <Skill Icon={html} SkillName='Html'/>
             <Skill Icon={JavaS} SkillName='JavaScript'/>
-            <Skill Icon={Java} SkillName='Java'/>
             <Skill Icon={Sqlite} SkillName='Sqlite'/>
             <Skill Icon={firebase} SkillName='Firebase'/>
             <Skill Icon={astro} SkillName='Astro'/>
