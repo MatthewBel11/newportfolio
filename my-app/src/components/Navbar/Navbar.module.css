@@ -13,11 +13,13 @@
     margin-right: 15px;
     text-decoration: none;
     color: black;
+    transition: color 0.3s ease, font-weight 0.3s ease, text-decoration 0.3s ease;
 }
 
 .LinkElement:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: gray;
 }
 
 .LinkElement:focus {
@@ -28,4 +30,5 @@
 .Active {
     font-weight: bold;
     text-decoration: underline;
+    transition: font-weight 0.3s ease, text-decoration 0.3s ease, color 0.3s ease;
 }
