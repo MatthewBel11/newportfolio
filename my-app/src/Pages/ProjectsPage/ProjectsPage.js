@@ -29,7 +29,7 @@ const ProjectWebsite = {
         { icon: cog, name: 'Under Development ' },
     ],
     ProjectViewLink: 'https://github.com/MatthewBel11/newportfolio',
-    ProjectDemoLink: 'https://swe-matthew.com',
+    ProjectDemoLink: 'https://matthew-swe.com',
 };
 
 const ProjectHealth = {
