@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './WorkExp.module.css'
-import Job from '../Job/Job.js'
+import Job from '../Job/Job.jsx'
 
 import ImageAtom from './ATOMBANK.png'
 import ImageZebra from './zebra.png'

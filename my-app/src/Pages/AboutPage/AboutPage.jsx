@@ -1,8 +1,8 @@
 import React from 'react'
-import PrimaryText from '../../components/PrimaryText/PrimaryText.js'
-import Documents from '../../components/Documents/Documents.js'
-import Work from '../../components/Work/WorkExp.js'
-import SkillStack from '../../components/SkillStack/SkillStack.js'
+import PrimaryText from '../../components/PrimaryText/PrimaryText.jsx'
+import Documents from '../../components/Documents/Documents.jsx'
+import Work from '../../components/Work/WorkExp.jsx'
+import SkillStack from '../../components/SkillStack/SkillStack.jsx'
 import styles from './AboutPage.module.css'
 
 var text = "A driven, resilient software engineering student at Newcastle University with a passion for coding and camping. Having successfully completed two summer internships, gaining a solid foundation in the Financial Services and Technology  industry whilst developing knowledge and softer skills within the development and architecture space. "

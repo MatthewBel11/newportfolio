@@ -14,7 +14,7 @@ import Vue from './vue.png'
 import css from './css.png'
 
 
-import Skill from '../Skills/Skills.js'
+import Skill from '../Skills/Skills.jsx'
 
 function Skills(props){
 

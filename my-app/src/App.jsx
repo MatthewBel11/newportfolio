@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import TitleCard from './components/Titlecard/Titlecard.js';
-import Navbar from './components/Navbar/Navbar.js';
-import AboutPage from './Pages/AboutPage/AboutPage.js';
-import ProjectsPage from './Pages/ProjectsPage/ProjectsPage.js';
-import NotFoundPage from './Pages/NotFoundPage/NotFoundPage.js'; // Import the 404 Page component
-import ContactPage from './Pages/ContactPage/Contact.js';
+import TitleCard from './components/Titlecard/Titlecard.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
+import AboutPage from './Pages/AboutPage/AboutPage.jsx';
+import ProjectsPage from './Pages/ProjectsPage/ProjectsPage.jsx';
+import NotFoundPage from './Pages/NotFoundPage/NotFoundPage.jsx'; // Import the 404 Page component
+import ContactPage from './Pages/ContactPage/Contact.jsx';
 
 function App() {
   return (
